@@ -1,0 +1,9 @@
+# mlflow[mlserver]
+# mlflow[scikit-learn]
+mlflow
+databricks-sdk==0.32.3
+jupyterlab==4.0.11
+virtualenv==20.26.5
+mlserver==1.6.1
+mlserver-mlflow==1.6.1
+dagshub==0.3.37
