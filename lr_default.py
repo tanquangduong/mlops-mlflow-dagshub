@@ -6,7 +6,7 @@ from sklearn.linear_model import ElasticNet
 from sklearn.model_selection import train_test_split
 
 import dagshub
-dagshub.init(repo_owner='tquangbk', repo_name='mlflow-master', mlflow=True)
+dagshub.init(repo_owner='tquangbk', repo_name='mlflow-dagshub-master', mlflow=True)
 
 # mlflow.set_tracking_uri('https://dagshub.com/tquangbk/mlflow-master.mlflow')
 
