@@ -9,7 +9,7 @@ from scipy.stats import uniform
 from sklearn.model_selection import RandomizedSearchCV
 
 import dagshub
-dagshub.init(repo_owner='tquangbk', repo_name='mlflow-master', mlflow=True)
+dagshub.init(repo_owner='tquangbk', repo_name='mlflow-dagshub-master', mlflow=True)
 
 
 def eval_metrics(pred, actual):
